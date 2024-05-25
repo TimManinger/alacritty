@@ -1,0 +1,38 @@
+import = [
+    "~/.config/alacritty/themes/themes/gruvbox_dark.toml"
+]
+
+[window]
+opacity = 0.95
+
+padding.x = 10
+padding.y = 10
+
+decorations = "Full"
+decorations_theme_variant = "Dark"
+
+[colors]
+transparent_background_colors = true
+
+[shell]
+program = "/usr/bin/tmux"
+args = ["new-session", "-A", "-D", "-s", "main"]
+
+[font]
+size = 12.0
+
+[font.normal]
+family = "JetBrainsMono Nerd Font Mono"
+style = "Regular"
+
+[font.bold]
+family = "JetBrainsMono Nerd Font Mono"
+style = "Bold"
+
+[font.italic]
+family = "JetBrainsMono Nerd Font Mono"
+style = "Italic"
+
+[font.bold_italic]
+family = "JetBrainsMono Nerd Font Mono"
+style = "Bold Italic"
